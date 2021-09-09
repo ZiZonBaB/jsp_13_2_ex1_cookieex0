@@ -15,5 +15,6 @@ response.addCookie(cookie);//response 객체 cookie 탑재
 %>
 <h1>cookie의 name, value, Max_Age를 설정하였습니다.</h1>
 <a href="cookieget.jsp">cookie의 설정값을 보여주는 페이지로 이동</a>
+
 </body>
 </html>
