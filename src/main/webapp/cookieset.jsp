@@ -8,7 +8,7 @@
 </head>
 <body>
 <% // 쿠키는 사이트 당 하나만 가능
-Cookie cookie = new Cookie("naver","daum");
+Cookie cookie = new Cookie("naver","daum"); // naver -> name , daum -> value
 cookie.setMaxAge(60*60*24);//쿠키의 유효시간 60초*60*24 = 24시간.
 response.addCookie(cookie);//response 객체 cookie 탑재
 
